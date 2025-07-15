@@ -1,0 +1,39 @@
+.file-uploader {
+  border: 2px dashed #cbd5e1;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f8fafc;
+  transition: border-color 0.2s ease;
+}
+
+.file-uploader:hover {
+  border-color: #3b82f6;
+}
+
+.upload-area p {
+  margin: 0;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.browse-text {
+  color: #3b82f6;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.file-list {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+  font-size: 0.9rem;
+  color: #1e293b;
+}

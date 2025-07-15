@@ -1,0 +1,26 @@
+.scroll-area {
+  overflow: auto;
+  padding-right: 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) transparent;
+}
+
+/* Webkit (Chrome, Edge, Safari) */
+.scroll-area::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scroll-area::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-area::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb, #a1a1aa);
+  border-radius: 4px;
+}
+
+/* Optional: Dark mode support */
+html.dark .scroll-area {
+  --scroll-thumb: #52525b;
+}

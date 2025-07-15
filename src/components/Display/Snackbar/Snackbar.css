@@ -1,0 +1,55 @@
+.snackbar {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 280px;
+  max-width: 90%;
+  background-color: #333;
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: slideUp 0.3s ease-out;
+  z-index: 9999;
+}
+
+.snackbar-close {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+/* Variants */
+.snackbar-info {
+  background-color: #2563eb;
+}
+
+.snackbar-success {
+  background-color: #16a34a;
+}
+
+.snackbar-warning {
+  background-color: #d97706;
+}
+
+.snackbar-error {
+  background-color: #dc2626;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translate(-50%, 40px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}

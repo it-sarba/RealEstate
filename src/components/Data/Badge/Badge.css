@@ -1,0 +1,104 @@
+.badge {
+  display: inline-block;
+  font-weight: 500;
+  padding: 0.25em 0.6em;
+  line-height: 1;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: baseline;
+  user-select: none;
+}
+
+.badge-sm {
+  font-size: 0.65rem;
+  padding: 0.15em 0.5em;
+}
+
+.badge-md {
+  font-size: 0.75rem;
+  padding: 0.25em 0.6em;
+}
+
+.badge-lg {
+  font-size: 0.875rem;
+  padding: 0.35em 0.75em;
+}
+
+/* Rounded */
+.badge-rounded-none {
+  border-radius: 0;
+}
+.badge-rounded-sm {
+  border-radius: 4px;
+}
+.badge-rounded-md {
+  border-radius: 6px;
+}
+.badge-rounded-lg {
+  border-radius: 8px;
+}
+.badge-rounded-full {
+  border-radius: 9999px;
+}
+
+/* Variants: solid, outline, subtle */
+.badge-solid {
+  color: white;
+}
+.badge-outline {
+  background-color: transparent;
+  border: 1px solid currentColor;
+}
+.badge-subtle {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Color themes */
+.badge-gray {
+  background-color: #6b7280;
+  color: white;
+}
+.badge-gray.badge-outline {
+  color: #6b7280;
+}
+.badge-gray.badge-subtle {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.badge-blue {
+  background-color: #3b82f6;
+  color: white;
+}
+.badge-blue.badge-outline {
+  color: #3b82f6;
+}
+.badge-blue.badge-subtle {
+  background-color: #e0f2fe;
+  color: #1d4ed8;
+}
+
+.badge-green {
+  background-color: #10b981;
+  color: white;
+}
+.badge-green.badge-outline {
+  color: #10b981;
+}
+.badge-green.badge-subtle {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.badge-red {
+  background-color: #ef4444;
+  color: white;
+}
+.badge-red.badge-outline {
+  color: #ef4444;
+}
+.badge-red.badge-subtle {
+  background-color: #fee2e2;
+  color: #991b1b;
+}

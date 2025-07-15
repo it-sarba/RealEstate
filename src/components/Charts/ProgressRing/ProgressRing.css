@@ -1,0 +1,18 @@
+.progress-ring-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.progress-ring-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.progress-ring-circle {
+  transition: stroke-dashoffset 0.6s ease;
+}
