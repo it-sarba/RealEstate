@@ -1,0 +1,1 @@
+.otp-input-wrapper{display:flex;justify-content:center;gap:.75rem}.otp-box{width:3rem;height:3rem;font-size:1.5rem;text-align:center;border:2px solid #d1d5db;border-radius:.5rem;outline:none;transition:border-color .2s}.otp-box:focus{border-color:#2563eb;box-shadow:0 0 0 1px #2563eb}

@@ -1,0 +1,13 @@
+import{e}from"./iframe-BgPDq8p8.js";import{P as o}from"./index-CPaJQx2l.js";import{I as l}from"./Input-oA59sKuW.js";const r=({label:i,hint:m,error:n,children:d,required:c})=>e.createElement("div",{className:`form-control ${n?"has-error":""}`},i&&e.createElement("label",{className:"form-label"},i,c&&e.createElement("span",{className:"required"},"*")),d,m&&!n&&e.createElement("p",{className:"form-hint"},m),n&&e.createElement("p",{className:"form-error"},n));r.propTypes={label:o.string,hint:o.string,error:o.string,required:o.bool,children:o.node.isRequired};r.__docgenInfo={description:"",methods:[],displayName:"FormControl",props:{label:{description:"",type:{name:"string"},required:!1},hint:{description:"",type:{name:"string"},required:!1},error:{description:"",type:{name:"string"},required:!1},required:{description:"",type:{name:"bool"},required:!1},children:{description:"",type:{name:"node"},required:!0}}};const{fn:p}=__STORYBOOK_MODULE_TEST__,f={title:"Components/FormControl",component:r,parameters:{layout:"centered"},tags:["autodocs"],argTypes:{backgroundColor:{control:"color"}},args:{onClick:p()}},t=()=>e.createElement(r,{label:"Username",hint:"Enter your preferred username"},e.createElement(l,{placeholder:"Username"})),a=()=>e.createElement(r,{label:"Email",error:"Invalid email address"},e.createElement(l,{type:"email",placeholder:"Email"})),s=()=>e.createElement(r,{label:"Password",required:!0,hint:"Must be 8+ characters"},e.createElement(l,{type:"password",placeholder:"Password"}));t.__docgenInfo={description:"",methods:[],displayName:"Default"};a.__docgenInfo={description:"",methods:[],displayName:"WithError"};s.__docgenInfo={description:"",methods:[],displayName:"RequiredField"};t.parameters={...t.parameters,docs:{...t.parameters?.docs,source:{originalSource:`() => {
+  return <FormControl label="Username" hint="Enter your preferred username">\r
+      <Input placeholder="Username" />\r
+    </FormControl>;
+}`,...t.parameters?.docs?.source}}};a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`() => {
+  return <FormControl label="Email" error="Invalid email address">\r
+      <Input type="email" placeholder="Email" />\r
+    </FormControl>;
+}`,...a.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`() => {
+  return <FormControl label="Password" required hint="Must be 8+ characters">\r
+      <Input type="password" placeholder="Password" />\r
+    </FormControl>;
+}`,...s.parameters?.docs?.source}}};const y=["Default","WithError","RequiredField"];export{t as Default,s as RequiredField,a as WithError,y as __namedExportsOrder,f as default};

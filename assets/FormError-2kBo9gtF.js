@@ -1,0 +1,1 @@
+import{e as o}from"./iframe-BgPDq8p8.js";import{P as s}from"./index-CPaJQx2l.js";const e=({message:r})=>r?o.createElement("div",{className:"form-error"},r):null;e.propTypes={message:s.string};e.__docgenInfo={description:"",methods:[],displayName:"FormError",props:{message:{description:"",type:{name:"string"},required:!1}}};export{e as F};
