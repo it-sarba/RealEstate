@@ -1,7 +1,7 @@
 import React from "react";
 import "./UserAvatarWithStatus.css";
 
-export const UserAvatarWithStatus = ({
+ const UserAvatarWithStatus = ({
   src,
   name = "User",
   size = 48,
@@ -29,3 +29,4 @@ export const UserAvatarWithStatus = ({
     </div>
   );
 };
+export default UserAvatarWithStatus;

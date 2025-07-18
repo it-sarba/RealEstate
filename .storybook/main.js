@@ -14,7 +14,7 @@ const config = {
     name: "@storybook/react-vite",
     options: {
       docs: {
-        docsPage: true
+        docsPage: false
       }
     }
   },

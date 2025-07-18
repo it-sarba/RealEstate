@@ -14,3 +14,4 @@ export const LogViewer = ({ logs = [] }) => {
     </div>
   );
 };
+export default LogViewer;

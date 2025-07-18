@@ -1,7 +1,7 @@
 import React from "react";
 import "./Avatar.css";
 
-export const Avatar = ({
+ export const Avatar = ({
   src,
   alt = "Avatar",
   size = "md",
@@ -30,3 +30,4 @@ export const Avatar = ({
     </div>
   );
 };
+export default Avatar;

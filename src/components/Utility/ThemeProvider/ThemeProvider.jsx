@@ -13,7 +13,7 @@ const ThemeContext = createContext({
 });
 
 // Main ThemeProvider
-export const ThemeProvider = ({ children }) => {
+ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(themes.light);
 
   // Load theme from localStorage or match system preference
@@ -42,3 +42,4 @@ export const ThemeProvider = ({ children }) => {
 
 // Custom hook to use the theme
 export const useTheme = () => useContext(ThemeContext);
+export default ThemeProvider;

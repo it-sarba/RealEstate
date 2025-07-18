@@ -25,3 +25,4 @@ export const Progressbar = ({
     </div>
   );
 };
+export default Progressbar;

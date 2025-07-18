@@ -26,3 +26,4 @@ export const LanguageSelector = ({ currentLang = "en", onChange }) => {
     </div>
   );
 };
+export default LanguageSelector;

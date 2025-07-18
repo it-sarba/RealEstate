@@ -97,3 +97,4 @@ export const RegisterForm = ({ onRegister }) => {
     </form>
   );
 };
+export default RegisterForm;

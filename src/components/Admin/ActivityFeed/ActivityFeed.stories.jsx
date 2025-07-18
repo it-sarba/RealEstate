@@ -1,5 +1,5 @@
 import React from "react";
-import { ActivityFeed } from "./ActivityFeed";
+import { default as ActivityFeed } from "./ActivityFeed";
 import { FaUserPlus, FaCommentDots } from "react-icons/fa";
 import { fn } from 'storybook/test';
 

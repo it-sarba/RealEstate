@@ -14,3 +14,4 @@ export const AppVersionInfo = ({
     </div>
   );
 };
+export default AppVersionInfo;

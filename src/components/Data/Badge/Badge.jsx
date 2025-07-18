@@ -11,3 +11,4 @@ export const Badge = ({
   const className = `badge badge-${color} badge-${variant} badge-${size} badge-rounded-${rounded}`;
   return <span className={className}>{children}</span>;
 };
+export default Badge;

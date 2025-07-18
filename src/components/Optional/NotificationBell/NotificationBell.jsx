@@ -2,7 +2,7 @@ import React from "react";
 import { FaBell } from "react-icons/fa";
 import "./NotificationBell.css";
 
-export const NotificationBell = ({ count = 0, onClick }) => {
+ export const NotificationBell = ({ count = 0, onClick }) => {
   return (
     <div className="notification-bell" onClick={onClick}>
       <FaBell className="bell-icon" />
@@ -10,3 +10,4 @@ export const NotificationBell = ({ count = 0, onClick }) => {
     </div>
   );
 };
+export default NotificationBell;

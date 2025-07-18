@@ -10,7 +10,7 @@ import {
   Legend,
 } from "recharts";
 
-export const LineChart = ({
+ export const LineChart = ({
   data,
   xKey,
   lineKey,
@@ -41,3 +41,4 @@ export const LineChart = ({
     </div>
   );
 };
+export default LineChart;

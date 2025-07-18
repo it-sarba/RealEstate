@@ -24,3 +24,4 @@ export const SortDropdown = ({
     </div>
   );
 };
+export default SortDropdown;

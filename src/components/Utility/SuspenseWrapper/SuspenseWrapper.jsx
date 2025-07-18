@@ -10,3 +10,4 @@ const DefaultFallback = () => (
 export const SuspenseWrapper = ({ children, fallback = <DefaultFallback /> }) => {
   return <Suspense fallback={fallback}>{children}</Suspense>;
 };
+export default SuspenseWrapper;

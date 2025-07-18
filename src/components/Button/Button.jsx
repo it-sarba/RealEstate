@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css';
 import PropTypes from 'prop-types';
 
-const Button = ({
+export const Button = ({
   label,
   size = 'medium',
   variant = 'primary',

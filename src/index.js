@@ -31,12 +31,12 @@ export { default as Drawer } from './components/Layout/Drawer/Drawer';
 export { default as Footer } from './components/Layout/Footer/Footer';
 export { default as Divider } from './components/Layout/Divider/Divider';
 export { default as Spacer } from './components/Layout/Spacer/Spacer';
-export { default as SectionTitle } from './components/Layout/Modal/Modal';
+export { default as SectionTitle } from './components/Layout/SectionTitle/SectionTitle';
 
 
 
 // Forms
-export { default as Input } from './components/Form/Input/Input';
+// export { default as Input } from './components/Form/Input/Input';
 export { default as FormControl } from './components/Form/FormControl/FormControl';
 export { default as FormLabel } from './components/Form/FormLabel/FormLabel';
 export { default as FormError } from './components/Form/FormError/FormError';
@@ -97,7 +97,7 @@ export { default as PieChart } from './components/Charts/PieChart/PieChart';
 export { default as DoughnutChart } from './components/Charts/DoughnutChart/DoughnutChart';
 export { default as AreaChart } from './components/Charts/AreaChart/AreaChart';
 export { default as Sparkline } from './components/Charts/Sparkline/Sparkline';
-export { default as ProgressRing  } from './components/Charts/ProgressRing /ProgressRing';
+export { default as ProgressRing  } from './components/Charts/ProgressRing/ProgressRing';
 
 
 
@@ -116,10 +116,10 @@ export { default as FileUploader } from './components/Utility/FileUploader/FileU
 
 
 // Auth
-export { LoginForm } from './components/Auth/LoginForm/LoginForm';
-export { RegisterForm } from './components/Auth/RegisterForm/RegisterForm';
-export { ForgotPasswordForm } from './components/Auth/ForgotPasswordForm/ForgotPasswordForm';
-export { OTPInput } from './components/Auth/OTPInput/OTPInput';
+export { default as LoginForm } from './components/Auth/LoginForm/LoginForm';
+export { default as RegisterForm } from './components/Auth/RegisterForm/RegisterForm';
+export { default as ForgotPasswordForm } from './components/Auth/ForgotPasswordForm/ForgotPasswordForm';
+export { default as OTPInput } from './components/Auth/OTPInput/OTPInput';
 export { default as SocialLoginButton } from './components/Auth/SocialLoginButton/SocialLoginButton';
 
 
@@ -142,7 +142,7 @@ export { default as TagFilterBar } from './components/Search/TagFilterBar/TagFil
 export { default as StatWidget } from './components/Admin/StatWidget/StatWidget';
 export { default as AnalyticsCard } from './components/Admin/AnalyticsCard/AnalyticsCard';   
 export { default as UserTableRow } from './components/Admin/UserTableRow/UserTableRow';
-export { default as UserAvatarWithStatus } from './components/UserAvatarWithStatus/UserAvatarWithStatus/PermissionManagement';
+export { default as UserAvatarWithStatus } from './components/Admin/UserAvatarWithStatus/UserAvatarWithStatus';
 export { default as ActivityFeed } from './components/Admin/ActivityFeed/ActivityFeed';
 export { default as LogViewer } from './components/Admin/LogViewer/LogViewer';
 
@@ -155,4 +155,4 @@ export { default as LanguageSelector } from './components/Optional/LanguageSelec
 export { default as ThemeSelector } from './components/Optional/ThemeSelector/ThemeSelector';
 export { default as NotificationBell } from './components/Optional/NotificationBell/NotificationBell';
 export { default as AppVersionInfo } from './components/Optional/AppVersionInfo/AppVersionInfo';
-export { default as TourGuide  } from './components/Optional/TourGuide/TourGuide ';
+export { default as TourGuide  } from './components/Optional/TourGuide/TourGuide';

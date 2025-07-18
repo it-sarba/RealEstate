@@ -1,7 +1,7 @@
 import React from "react";
 import "./Pagination.css";
 
-export const Pagination = ({
+ export const Pagination = ({
   currentPage = 1,
   totalPages = 10,
   onPageChange = () => {},
@@ -62,3 +62,4 @@ export const Pagination = ({
     </div>
   );
 };
+export default Pagination;

@@ -9,3 +9,4 @@ export const Spinner = ({ size = "medium", color = "primary", label }) => {
     </div>
   );
 };
+export default Spinner;

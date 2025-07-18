@@ -1,7 +1,7 @@
 import React from "react";
 import "./UserTableRow.css";
 
-export const UserTableRow = ({ user, onEdit, onDelete }) => {
+ export const UserTableRow = ({ user, onEdit, onDelete }) => {
   const { avatar, name, email, role, status } = user;
 
   return (
@@ -30,3 +30,4 @@ export const UserTableRow = ({ user, onEdit, onDelete }) => {
     </tr>
   );
 };
+export default UserTableRow;

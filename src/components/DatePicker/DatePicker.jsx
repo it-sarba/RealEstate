@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./DatePicker.css";
 
-const DatePicker = () => {
+export const DatePicker = () => {
   const today = new Date();
   const [selectedDate, setSelectedDate] = useState(null);
   const [showCalendar, setShowCalendar] = useState(false);

@@ -54,3 +54,4 @@ export const TourGuide = ({ steps = [], onFinish }) => {
     </>
   );
 };
+export default TourGuide;

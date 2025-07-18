@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Tooltip.css";
 
-export const Tooltip = ({ content, position = "top", children }) => {
+ export const Tooltip = ({ content, position = "top", children }) => {
   const [visible, setVisible] = useState(false);
 
   return (
@@ -20,3 +20,4 @@ export const Tooltip = ({ content, position = "top", children }) => {
     </div>
   );
 };
+export default Tooltip;

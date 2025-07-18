@@ -42,3 +42,4 @@ export const MobileNav = ({ items = [], logo = "Logo" }) => {
     </header>
   );
 };
+export default MobileNav;

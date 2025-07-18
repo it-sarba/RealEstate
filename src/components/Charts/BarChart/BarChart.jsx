@@ -27,3 +27,4 @@ export const BarChart = ({ data, xKey, barKey, barColor = "#3b82f6", title }) =>
     </div>
   );
 };
+export default BarChart;

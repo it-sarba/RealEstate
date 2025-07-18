@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./LazyLoadImage.css";
 
-export const LazyLoadImage = ({
+ export const LazyLoadImage = ({
   src,
   alt = "",
   className = "",
@@ -43,3 +43,4 @@ export const LazyLoadImage = ({
     </div>
   );
 };
+export default LazyLoadImage;

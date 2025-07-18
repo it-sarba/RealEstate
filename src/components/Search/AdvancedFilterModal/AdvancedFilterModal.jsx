@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./AdvancedFilterModal.css";
 
-export const AdvancedFilterModal = ({
+ export const AdvancedFilterModal = ({
   isOpen,
   onClose,
   onApply,
@@ -110,3 +110,4 @@ export const AdvancedFilterModal = ({
     </div>
   );
 };
+export default AdvancedFilterModal;

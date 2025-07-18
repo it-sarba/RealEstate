@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Checkbox.css';
 
-const Checkbox = ({ label, checked, onChange, error, className, ...props }) => {
+export const Checkbox = ({ label, checked, onChange, error, className, ...props }) => {
   return (
     <label className={`checkbox-wrapper ${className || ''}`}>
       <input

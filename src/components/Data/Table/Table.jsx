@@ -35,3 +35,4 @@ export const Table = ({ columns = [], data = [], rowKey = "id", actions }) => {
     </div>
   );
 };
+export default Table;

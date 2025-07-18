@@ -41,3 +41,4 @@ export const ForgotPasswordForm = ({ onReset }) => {
     </form>
   );
 };
+export default ForgotPasswordForm;

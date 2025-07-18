@@ -21,3 +21,4 @@ export const Timeline = ({ items }) => (
     ))}
   </div>
 );
+export default Timeline;

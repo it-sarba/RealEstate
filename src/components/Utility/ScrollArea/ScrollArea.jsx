@@ -17,3 +17,4 @@ export const ScrollArea = ({
     </div>
   );
 };
+export default ScrollArea;

@@ -44,3 +44,4 @@ export const DoughnutChart = ({
     </div>
   );
 };
+export default DoughnutChart;

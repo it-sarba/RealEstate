@@ -10,7 +10,7 @@ import {
   Legend,
 } from "recharts";
 
-export const AreaChart = ({
+ export const AreaChart = ({
   data,
   xKey,
   areaKey,
@@ -46,3 +46,4 @@ export const AreaChart = ({
     </div>
   );
 };
+export default AreaChart;

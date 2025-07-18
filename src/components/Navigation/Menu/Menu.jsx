@@ -36,3 +36,4 @@ export const Menu = ({ label = "Menu", items = [] }) => {
     </div>
   );
 };
+export default Menu;

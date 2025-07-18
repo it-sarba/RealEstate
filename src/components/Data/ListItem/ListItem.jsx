@@ -1,7 +1,7 @@
 import React from "react";
 import "./ListItem.css";
 
-export const ListItem = ({ icon, title, description, action }) => {
+ export const ListItem = ({ icon, title, description, action }) => {
   return (
     <div className="list-item-wrapper">
       {icon && <div className="list-item-icon">{icon}</div>}
@@ -13,3 +13,4 @@ export const ListItem = ({ icon, title, description, action }) => {
     </div>
   );
 };
+export default ListItem;

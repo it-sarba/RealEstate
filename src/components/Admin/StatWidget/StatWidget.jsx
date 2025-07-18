@@ -2,7 +2,7 @@ import React from "react";
 import "./StatWidget.css";
 import { FaArrowUp, FaArrowDown } from "react-icons/fa";
 
-export const StatWidget = ({
+ export const StatWidget = ({
   title,
   value,
   icon,
@@ -29,3 +29,4 @@ export const StatWidget = ({
     </div>
   );
 };
+export default StatWidget;

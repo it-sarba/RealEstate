@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./OTPInput.css";
 
-export const OTPInput = ({ length = 6, onChange }) => {
+ export const OTPInput = ({ length = 6, onChange }) => {
   const inputsRef = useRef([]);
 
   const handleChange = (e, index) => {
@@ -51,3 +51,4 @@ export const OTPInput = ({ length = 6, onChange }) => {
     </div>
   );
 };
+export default OTPInput;

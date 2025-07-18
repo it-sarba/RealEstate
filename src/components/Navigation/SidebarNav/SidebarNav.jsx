@@ -18,3 +18,4 @@ export const SidebarNav = ({ items = [], title = "Navigation" }) => {
     </nav>
   );
 };
+export default SidebarNav;

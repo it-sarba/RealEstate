@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./DropdownMenu.css";
 
-export const DropdownMenu = ({ label = "Dropdown", items = [] }) => {
+ export const DropdownMenu = ({ label = "Dropdown", items = [] }) => {
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -35,3 +35,4 @@ export const DropdownMenu = ({ label = "Dropdown", items = [] }) => {
     </div>
   );
 };
+export default DropdownMenu;

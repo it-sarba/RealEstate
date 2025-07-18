@@ -1,7 +1,7 @@
 import React from "react";
 import "./SkeletonLoader.css";
 
-export const SkeletonLoader = ({
+ export const SkeletonLoader = ({
   width = "100%",
   height = "16px",
   borderRadius = "4px",
@@ -22,3 +22,4 @@ export const SkeletonLoader = ({
     </>
   );
 };
+export default SkeletonLoader;

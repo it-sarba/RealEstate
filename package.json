@@ -9,13 +9,19 @@
     "dist",
     "src/components/Button/Button.css"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/my-component-lib.es.js",
-      "require": "./dist/my-component-lib.umd.js",
-      "types": "./dist/index.d.ts"
+"exports": {
+  ".": {
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/my-component-lib.es.js"
+    },
+    "require": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/my-component-lib.umd.js"
     }
-  },
+  }
+},
+  "homepage": "https://it-sarba.github.io/RealEstate",  
   "keywords": [
     "react",
     "component-library",
@@ -32,7 +38,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages --ci"  
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
@@ -66,6 +73,7 @@
     "playwright": "^1.54.0",
     "prop-types": "^15.8.1",
     "storybook": "^9.0.16",
+    "storybook-deployer": "^2.8.12",
     "vite": "^7.0.4",
     "vite-plugin-dts": "^4.5.4",
     "vitest": "^3.2.4"

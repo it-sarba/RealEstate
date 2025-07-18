@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./LoginForm.css";
-
+ 
 export const LoginForm = ({ onLogin }) => {
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [showPassword, setShowPassword] = useState(false);
@@ -66,3 +66,4 @@ export const LoginForm = ({ onLogin }) => {
     </form>
   );
 };
+export default LoginForm;

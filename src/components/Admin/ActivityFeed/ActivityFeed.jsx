@@ -1,7 +1,6 @@
 import React from "react";
 import "./ActivityFeed.css";
-
-export const ActivityFeed = ({ activities = [] }) => {
+const ActivityFeed = ({ activities = [] }) => {
   return (
     <ul className="activity-feed">
       {activities.map((activity, idx) => (
@@ -22,3 +21,4 @@ export const ActivityFeed = ({ activities = [] }) => {
     </ul>
   );
 };
+export default ActivityFeed;

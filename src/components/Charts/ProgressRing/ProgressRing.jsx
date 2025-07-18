@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProgressRing.css";
 
-export const ProgressRing = ({ radius = 50, stroke = 8, progress = 70, color = "#3b82f6", label }) => {
+ export const ProgressRing = ({ radius = 50, stroke = 8, progress = 70, color = "#3b82f6", label }) => {
   const normalizedRadius = radius - stroke * 0.5;
   const circumference = 2 * Math.PI * normalizedRadius;
   const strokeDashoffset = circumference - (progress / 100) * circumference;
@@ -36,3 +36,4 @@ export const ProgressRing = ({ radius = 50, stroke = 8, progress = 70, color = "
     </div>
   );
 };
+export default ProgressRing;

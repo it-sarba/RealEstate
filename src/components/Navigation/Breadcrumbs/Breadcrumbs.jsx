@@ -1,7 +1,7 @@
 import React from "react";
 import "./Breadcrumbs.css";
 
-export const Breadcrumbs = ({ items, separator = "/" }) => {
+ export const Breadcrumbs = ({ items, separator = "/" }) => {
   return (
     <nav className="breadcrumbs" aria-label="Breadcrumb">
       <ol>
@@ -23,3 +23,4 @@ export const Breadcrumbs = ({ items, separator = "/" }) => {
     </nav>
   );
 };
+export default Breadcrumbs;

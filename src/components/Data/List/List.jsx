@@ -20,3 +20,4 @@ export const List = ({
     </ListTag>
   );
 };
+export default List;

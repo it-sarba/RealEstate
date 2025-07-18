@@ -32,3 +32,4 @@ export const StepsWizard = ({
     </div>
   );
 };
+export default StepsWizard;

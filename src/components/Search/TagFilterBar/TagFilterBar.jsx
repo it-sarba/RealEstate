@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./TagFilterBar.css";
 
-export const TagFilterBar = ({
+ export const TagFilterBar = ({
   tags = [],
   multiple = false,
   selected = [],
@@ -55,3 +55,4 @@ export const TagFilterBar = ({
     </div>
   );
 };
+export default TagFilterBar;

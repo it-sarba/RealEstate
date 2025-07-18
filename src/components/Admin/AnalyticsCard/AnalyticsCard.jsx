@@ -33,3 +33,4 @@ export const AnalyticsCard = ({
     </div>
   );
 };
+export default AnalyticsCard;

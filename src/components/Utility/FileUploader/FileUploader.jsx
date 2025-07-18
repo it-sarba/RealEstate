@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./FileUploader.css";
 
-export const FileUploader = ({
+ export const FileUploader = ({
   onUpload,
   multiple = false,
   accept = "*",
@@ -65,3 +65,4 @@ export const FileUploader = ({
     </div>
   );
 };
+export default FileUploader;

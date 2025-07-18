@@ -8,7 +8,7 @@ const THEMES = [
   { value: "system", label: "System", icon: <FaDesktop /> },
 ];
 
-export const ThemeSelector = ({ currentTheme = "system", onChange }) => {
+ export const ThemeSelector = ({ currentTheme = "system", onChange }) => {
   return (
     <div className="theme-selector">
       <select
@@ -25,3 +25,4 @@ export const ThemeSelector = ({ currentTheme = "system", onChange }) => {
     </div>
   );
 };
+export default ThemeSelector;

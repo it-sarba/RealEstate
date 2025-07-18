@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Popover.css";
 
-export const Popover = ({ trigger, content, position = "bottom" }) => {
+ export const Popover = ({ trigger, content, position = "bottom" }) => {
   const [open, setOpen] = useState(false);
   const popoverRef = useRef(null);
 
@@ -32,3 +32,4 @@ export const Popover = ({ trigger, content, position = "bottom" }) => {
     </div>
   );
 };
+export default Popover;

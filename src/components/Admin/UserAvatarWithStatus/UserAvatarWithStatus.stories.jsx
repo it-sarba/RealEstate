@@ -1,5 +1,5 @@
 import React from "react";
-import { UserAvatarWithStatus } from "./UserAvatarWithStatus";
+import { default as UserAvatarWithStatus } from "./UserAvatarWithStatus";
 import { fn } from 'storybook/test';
 
 export default {

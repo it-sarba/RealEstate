@@ -10,7 +10,7 @@ import {
 
 const COLORS = ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6", "#ec4899"];
 
-export const PieChart = ({ data, dataKey = "value", nameKey = "name", title }) => {
+ export const PieChart = ({ data, dataKey = "value", nameKey = "name", title }) => {
   return (
     <div style={{ width: "100%", height: 300 }}>
       {title && <h3 style={{ marginBottom: "1rem", textAlign: "center" }}>{title}</h3>}
@@ -37,3 +37,4 @@ export const PieChart = ({ data, dataKey = "value", nameKey = "name", title }) =
     </div>
   );
 };
+export default PieChart;

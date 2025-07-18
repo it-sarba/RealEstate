@@ -37,3 +37,4 @@ export const FilterPanel = ({ filters = [], onChange }) => {
     </div>
   );
 };
+export default FilterPanel;

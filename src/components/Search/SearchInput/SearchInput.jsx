@@ -2,7 +2,7 @@ import React from "react";
 import { FiSearch, FiX } from "react-icons/fi";
 import "./SearchInput.css";
 
-export const SearchInput = ({
+ export const SearchInput = ({
   value,
   onChange,
   onClear,
@@ -26,3 +26,4 @@ export const SearchInput = ({
     </div>
   );
 };
+export default SearchInput;

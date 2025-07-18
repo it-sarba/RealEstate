@@ -39,3 +39,4 @@ export const SocialLoginButton = ({
     </button>
   );
 };
+export default SocialLoginButton;

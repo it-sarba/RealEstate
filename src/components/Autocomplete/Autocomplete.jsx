@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { HiOutlineSearch } from "react-icons/hi";
 import "./Autocomplete.css";
 
-const Autocomplete = ({ options, onSelect, placeholder }) => {
+ export const Autocomplete = ({ options, onSelect, placeholder }) => {
   const [inputValue, setInputValue] = useState("");
   const [filteredOptions, setFilteredOptions] = useState([]);
   const [activeIndex, setActiveIndex] = useState(-1);

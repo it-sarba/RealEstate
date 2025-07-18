@@ -32,3 +32,4 @@ export const Sparkline = ({
     </div>
   );
 };
+export default Sparkline;

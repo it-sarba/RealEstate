@@ -23,3 +23,4 @@ export const Chip = ({
     </span>
   );
 };
+export default Chip;
