@@ -2,58 +2,87 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  font-family: inherit;
+  gap: 0.75rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 600;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  padding: 0.5rem 1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0.75rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Sizes */
 .button.small {
-  font-size: 0.75rem;
-  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
 }
 .button.medium {
   font-size: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
 }
 .button.large {
-  font-size: 1.25rem;
-  padding: 0.75rem 1.25rem;
+  font-size: 1.125rem;
+  padding: 1rem 2rem;
 }
 
 /* Variants */
 .button.primary {
-  background-color: #007bff;
+  background: linear-gradient(135deg, #007bff 0%, #0057b8 100%);
   color: white;
 }
+.button.primary:hover {
+  background: linear-gradient(135deg, #0057b8 0%, #003580 100%);
+}
+
 .button.secondary {
-  background-color: #6c757d;
+  background: linear-gradient(135deg, #6c757d 0%, #5a6268 100%);
   color: white;
 }
+.button.secondary:hover {
+  background: linear-gradient(135deg, #5a6268 0%, #4b5156 100%);
+}
+
 .button.outline {
-  background-color: transparent;
+  background: transparent;
   border: 2px solid #007bff;
   color: #007bff;
+  box-shadow: none;
+}
+.button.outline:hover {
+  background: rgba(0, 123, 255, 0.1);
+  border-color: #0057b8;
+  color: #0057b8;
 }
 
 .button:disabled,
 .button.loading {
-  opacity: 0.6;
+  opacity: 0.7;
   cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
 }
 
 .spinner {
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 3px solid rgba(255, 255, 255, 0.3);
   border-left-color: white;
   border-radius: 50%;
-  width: 1em;
-  height: 1em;
-  animation: spin 0.7s linear infinite;
+  width: 1.2em;
+  height: 1.2em;
+  animation: spin 0.6s linear infinite;
 }
 
 @keyframes spin {
@@ -64,4 +93,10 @@
 
 .icon {
   display: inline-flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.button:hover .icon {
+  transform: scale(1.1);
 }

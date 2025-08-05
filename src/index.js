@@ -1,6 +1,17 @@
+if (typeof document !== 'undefined' && !document.getElementById('realestate-ui-kit-css')) {
+  const link = document.createElement('link');
+  link.id = 'realestate-ui-kit-css';
+  link.rel = 'stylesheet';
+  link.href = new URL('./realestate-ui-kit.css', import.meta.url).href;
+  document.head.appendChild(link);
+}
+
+
+import './styles/global.css';
+
 // Components
 import Sidebar from './components/Layout/Sidebar/Sidebar';
-import './index.css';
+
 export { default as Button } from './components/Button/Button';
 export { default as Input } from './components/Input/Input';
 export {default as IconButton} from './components/IconButton/IconButton';

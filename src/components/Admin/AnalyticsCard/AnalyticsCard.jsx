@@ -6,9 +6,10 @@ export const AnalyticsCard = ({
   value,
   icon,
   growth,
-  growthType = "up", // 'up' | 'down'
-  bgColor = "#f9fafb",
+  growthType = "up",
+  bgColor = "#ffffff",
   iconBg = "#e0f2fe",
+  trendIconSize = "1.5rem",
 }) => {
   return (
     <div className="analytics-card" style={{ backgroundColor: bgColor }}>
@@ -25,7 +26,10 @@ export const AnalyticsCard = ({
                 growthType === "up" ? "up" : "down"
               }`}
             >
-              {growthType === "up" ? "↑" : "↓"} {growth}
+              <span className="growth-icon">
+                {growthType === "up" ? "↑" : "↓"}
+              </span>
+              {growth}
             </span>
           )}
         </div>
@@ -33,4 +37,5 @@ export const AnalyticsCard = ({
     </div>
   );
 };
+
 export default AnalyticsCard;

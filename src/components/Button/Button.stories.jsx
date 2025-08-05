@@ -8,17 +8,15 @@ export default {
   component: Button,
   parameters: {
     layout: 'centered',
-  
   },
   tags: ['autodocs'],
- argTypes: {
+  argTypes: {
     backgroundColor: { control: 'color' },
   },
   args: {
     onClick: fn(),
   },
 };
-
 
 const Template = (args) => <Button {...args} />;
 
