@@ -1,0 +1,8 @@
+import{e as a,r as p}from"./iframe-BDDuDnDY.js";import{F as t}from"./FieldWrapper-DpkHunHI.js";import{I as l}from"./Input-Dcf667u6.js";import"./index-D3zwYjk_.js";import"./FormLabel-BMumRBTJ.js";import"./FormError-Bg4cIiPP.js";const{fn:m}=__STORYBOOK_MODULE_TEST__,g={title:"Components/Form/FieldWrapper",component:t,parameters:{layout:"centered"},tags:["autodocs"],argTypes:{backgroundColor:{control:"color"}},args:{onClick:m()}},e=()=>a.createElement(t,{label:"Username",required:!0},a.createElement(l,{placeholder:"Enter your username"})),r=()=>{const[o,s]=p.useState("");return a.createElement(t,{label:"Email",error:o?"":"Email is required",required:!0},a.createElement(l,{type:"email",placeholder:"you@example.com",value:o,onChange:n=>s(n.target.value)}))};e.__docgenInfo={description:"",methods:[],displayName:"Default"};r.__docgenInfo={description:"",methods:[],displayName:"WithError"};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`() => <FieldWrapper label="Username" required>\r
+    <Input placeholder="Enter your username" />\r
+  </FieldWrapper>`,...e.parameters?.docs?.source}}};r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`() => {
+  const [value, setValue] = useState("");
+  return <FieldWrapper label="Email" error={value ? "" : "Email is required"} required>\r
+      <Input type="email" placeholder="you@example.com" value={value} onChange={e => setValue(e.target.value)} />\r
+    </FieldWrapper>;
+}`,...r.parameters?.docs?.source}}};const h=["Default","WithError"];export{e as Default,r as WithError,h as __namedExportsOrder,g as default};

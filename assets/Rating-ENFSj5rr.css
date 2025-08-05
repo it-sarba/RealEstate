@@ -1,0 +1,1 @@
+.rating{display:flex;gap:8px;cursor:pointer;-webkit-user-select:none;user-select:none}.star{color:#e0e0e0;transition:transform .2s ease,color .3s ease;filter:drop-shadow(0 1px 1px rgba(0,0,0,.2))}.star:hover{transform:scale(1.2)}.star.filled{color:#ffc107}
